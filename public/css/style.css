@@ -1,0 +1,133 @@
+body {
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+}
+
+.navbar{
+    height: 5rem;
+    background-color: white;
+}
+
+/*Icon stylling*/
+.fa-compass {
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+/*All other link stylling*/
+.nav-link{
+    color: #222222 !important;
+}
+
+
+/*Footer*/
+.f-info{
+    display: flex;
+    height: 8rem;
+    background-color: #ebebeb;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+    text-align: center;
+}
+
+/*Privacy and terms*/
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+}
+
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+
+/*Giving the 100% width to all links and social media link so that wrap prpperty will be visible*/
+.f-info-links{
+    width: 100%;
+}
+
+.f-socials,.f-info-links,.f-info-brand{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-socials i{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+/*Index page*/
+/*Cards stylling here*/
+.listing-card {
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+/*Img should be curve from sides*/
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+/*Removing by default padding and margin */
+.card-body{
+    padding: 0 !important;
+}
+
+/*Font siznig*/
+.card-text p{
+    font-weight: 400;
+}
+
+/*card hover and style*/
+.card-details {
+    text-decoration: none;
+}
+
+.card-img-overlay {
+    opacity: 0;
+}
+
+.card-img-overlay:hover {
+    opacity: 0.2;
+    background-color: white;
+}
+
+/*Button color Of NEW.ejs PAge And EDIT.ejs*/
+.add-btn,.edit-btn{
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+/*Show page*/
+.show-image{
+    height: 30vh !important;
+    
+}
+
+/*buttons*/
+.btns{
+    display: flex;
+}
+
+.show-card{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+
+/*Map Stylling*/
+#map {
+    height: 400px;
+    width: 80vh;
+}
